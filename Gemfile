@@ -6,6 +6,7 @@ gem 'jquery-rails', '2.0.2'
 gem 'sass-rails',   '3.2.5'
 gem 'coffee-rails', '3.2.2'
 gem 'bootstrap-sass'
+gem 'newrelic_rpm'
 
 group :development, :test do
   gem 'sqlite3', '1.3.5'
@@ -37,7 +38,6 @@ group :test do
 end
 
 group :production do
-  gem 'newrelic_rpm'
   gem 'pg'
 end
 
