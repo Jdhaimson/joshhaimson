@@ -6,6 +6,7 @@ gem 'jquery-rails', '2.0.2'
 gem 'sass-rails',   '3.2.5'
 gem 'coffee-rails', '3.2.2'
 gem "therubyracer"
+gem "compass-rails"
 gem "less-rails"
 gem 'twitter-bootstrap-rails'
 gem 'newrelic_rpm'
