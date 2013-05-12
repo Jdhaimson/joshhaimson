@@ -2,6 +2,7 @@ Joshhaimson::Application.routes.draw do
   get "static_pages/home"
 
   root to: "static_pages#home"
+  match '/mom' => "static_pages#mom"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
