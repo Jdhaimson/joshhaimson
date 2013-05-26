@@ -4,4 +4,8 @@ class StaticPagesController < ApplicationController
 
   def mom
   end
+
+  def test
+  end
+
 end

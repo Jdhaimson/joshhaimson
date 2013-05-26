@@ -1,0 +1,135 @@
+h1 {
+  text-shadow: 0 1px 1px rgba(0,0,0,0.5);
+  font-weight: normal;
+  font-size: 3.5em;
+  text-transform: uppercase;
+  line-height: 1.2em;
+}
+
+h2 {
+  text-shadow: 0 1px 1px rgba(0,0,0,0.5);
+  font-weight: normal;
+  font-size: 3em;
+  text-transform: uppercase;
+}
+
+h3 {
+  text-shadow: 0 1px 1px rgba(0,0,0,0.5);
+  font-weight: normal;
+}
+
+h4 {
+  font-weight: normal;
+  color: rgb(122, 143, 163);
+}
+
+.panel {
+  width: 100%;
+  text-align: center;
+}
+
+.leftalign {
+  text-align: left;
+}
+
+.centeralign {
+  text-align: center;
+}
+
+#scroller {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 2;
+}
+
+#scroller #up {
+  width: 30px;
+  height: 30px;
+  background: #000 url("up.png") no-repeat center;
+  cursor: pointer;
+}
+
+#scroller #down {
+  width: 30px;
+  height: 30px;
+  background: #000 url("down.png") no-repeat center;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+#panel1 {
+  height: 100%;
+  background: url('1stpanel.jpg')
+    no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+
+.vcenter {
+  position: relative;
+  min-height: 50%;
+  top: 25%;
+}
+
+#panel1 h1, #panel1 h3 {
+  color: #fff;
+}
+
+#panel2, #panel4 {
+  height: 75%;
+  background: #eee;
+}
+
+#panel3 {
+  min-height: 75%;
+  background: #fff;
+}
+
+#panel3 img {
+  width: 160px;
+  height: 160px;
+}
+
+#panel5 {
+  height: 100%;
+  background: url('5thpanel.jpg')
+    no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#panel5 .vcenter {
+  position: relative;
+  min-height: 30%;
+  top: 35%;
+}
+
+.quote {
+  width: 100%;
+  background: rgba(238,238,238,.9);
+}
+
+.voffset {
+  padding-top: 5%;
+}
+
+#panel6 {
+  min-height: 100%;
+  background: #eee;
+}
+
+#panel7 {
+  height:100%;
+  background: #fff;
+}
+
+#panel7 img {
+  width: 100px;
+  height: 100px;
+}
