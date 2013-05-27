@@ -5,9 +5,6 @@ class StaticPagesController < ApplicationController
   def mom
   end
 
-  def test
-  end
-
   def bunko
   end
 
