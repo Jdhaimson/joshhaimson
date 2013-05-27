@@ -8,4 +8,7 @@ class StaticPagesController < ApplicationController
   def test
   end
 
+  def bunko
+  end
+
 end

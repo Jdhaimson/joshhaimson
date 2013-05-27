@@ -2,7 +2,7 @@ function sliderInit() {
   $.slider = new Object();
   $.slider.panel = 1;
   $.slider.last = 7;
-  $.slider.speed = 750;
+  $.slider.speed = 500;
   sliderUpdate();
 
   $(window).scroll(sliderUpdate);

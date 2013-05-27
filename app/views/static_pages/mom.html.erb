@@ -1,28 +1,30 @@
-<div class="container">
-  <div class="spacer"></div>
-	<div class="row">
-		<div class="span6 offset3">
-			<div id="text1" class="text">hi mom</div>
-			<div id="group2">
-				<div id="text2" class="text">just wanted to take some time</div>
-				<div id="text3" class="text">to wish you a very</div>
-				<div id="text4" class="text">very</div>
-				<div id="text5" class="text">happy mother's day</div>
-				<div id="smiley" class="text"><%= image_tag("smiley.jpg", size: "300x300") %></div>
-			</div>
-			<div id="group3">
-				<div id="text6" class="text">i love you</div>
-				<div id="text7" class="text">and i can't wait to see you in</div>
-				<div id="text8" class="text">INSERT COUNTDOWN</div>
-			</div>
-			<div id="group4">
-				<div id="text9" class="text">i can't give you a gift in person</div>
-				<div id="text10" class="text">but click the box below to see your virtual gift</div>
-				<div id="cover" class="text"></div>
-				<div id="puppies" class="text" align="left"><iframe width="560" height="315" src="http://www.youtube.com/embed/YxhtawThGBc" frameborder="0" allowfullscreen></iframe></div>
-			</div>
-		</div>
-	</div>
+<div id="mom">
+  <div class="container">
+    <div class="spacer"></div>
+    <div class="row">
+      <div class="span6 offset3">
+        <div id="text1" class="text">hi mom</div>
+        <div id="group2">
+          <div id="text2" class="text">just wanted to take some time</div>
+          <div id="text3" class="text">to wish you a very</div>
+          <div id="text4" class="text">very</div>
+          <div id="text5" class="text">happy mother's day</div>
+          <div id="smiley" class="text"><%= image_tag("smiley.jpg", size: "300x300") %></div>
+        </div>
+        <div id="group3">
+          <div id="text6" class="text">i love you</div>
+          <div id="text7" class="text">and i can't wait to see you in</div>
+          <div id="text8" class="text">INSERT COUNTDOWN</div>
+        </div>
+        <div id="group4">
+          <div id="text9" class="text">i can't give you a gift in person</div>
+          <div id="text10" class="text">but click the box below to see your virtual gift</div>
+          <div id="cover" class="text"></div>
+          <div id="puppies" class="text" align="left"><iframe width="560" height="315" src="http://www.youtube.com/embed/YxhtawThGBc" frameborder="0" allowfullscreen></iframe></div>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
 
 <script>
@@ -49,15 +51,15 @@ $("#cover").click( function() { $("#cover").animate({top:"+=400px"},"slow"); } )
 $("#puppies").delay(22500).fadeIn();
 
 function countdown() {
-	var now = new Date();
-	var d = new Date("May 23, 2013 12:00:00");
-	var msec = d - now;
-	var hh = Math.floor(msec / 1000 / 60 / 60);
-	msec -= hh * 1000 * 60 * 60;
-	var mm = Math.floor(msec / 1000 / 60);
-	msec -= mm * 1000 * 60;
-	var ss = Math.floor(msec / 1000);
-	msec -= ss * 1000;
+  var now = new Date();
+  var d = new Date("May 23, 2013 12:00:00");
+  var msec = d - now;
+  var hh = Math.floor(msec / 1000 / 60 / 60);
+  msec -= hh * 1000 * 60 * 60;
+  var mm = Math.floor(msec / 1000 / 60);
+  msec -= mm * 1000 * 60;
+  var ss = Math.floor(msec / 1000);
+  msec -= ss * 1000;
   $("#text8").text(hh + " hours, " + mm + " minutes, and " + ss + " seconds");  
 }
 
