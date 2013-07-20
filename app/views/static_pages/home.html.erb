@@ -16,7 +16,7 @@
   <div class="span6 offset3">
     <h1>Developer</h1>
     <h1>Student</h1>
-    <h1>Startup Enthusiast</h1>
+    <h1>Entrepreneur</h1>
     <h1>Musician</h1>
     <h1>Dreamer</h1>
   </div>
@@ -24,7 +24,7 @@
 </div>
 <div id="panel3" class="panel">
 <div class="container-fluid">
-  <div class="row-fluid voffset">
+  <div class="row-fluid">
     <div class="span6 offset3">
       <h2>What I'm Working On</h2>
       <br>
@@ -47,7 +47,7 @@
     <div class="span2">
       <%= link_to image_tag("neumitra.png", alt: "Neumitra"),"http://techcrunch.com/2012/10/05/neumitra-bandu-tctv-funding-yahoo-boston-scientific/" %>
       <h3><%= link_to "Neumitra", "http://techcrunch.com/2012/10/05/neumitra-bandu-tctv-funding-yahoo-boston-scientific/" %></h3>
-      <h4>Software Engineering Intern</h4>
+      <h4>Software Engineering Resident</h4>
       <p>Neumitra is bringing brain health to daily life through wearable and mobile technologies with personalized analytics</p>
     </div>
     <div class="span2">
@@ -91,28 +91,38 @@
 </div>
 </div>
 <div id="panel6" class="panel">
-<div class="row-fluid voffset">
+<div class="row-fluid">
   <div class="span6 offset3">
     <h1>When I'm Not Working</h1>
     <h4>I Love Playing Music</h4>
-    <h4>If you're interested, here's a video from my high school battle of the bands</h4>
-    <iframe width="820" height="461" src="http://www.youtube.com/embed/XVwxB1FdJSw" frameborder="0" allowfullscreen></iframe>
+    <h4>I haven't recorded in a while, but if you're interested, here's a really old video from my high school battle of the bands</h4>
+  </div>
+</div>
+<div class="row-fluid">
+  <div class="span6 offset3 hidden-phone">
+    <iframe width="640" height="360" src="http://www.youtube.com/embed/XVwxB1FdJSw" frameborder="0" allowfullscreen></iframe>
+  </div>
+    <div id="play-button" class="visible-phone span2 offset5">
+        <%= link_to image_tag("play-button.png", alt:"Johnny B Goode, Battle of the Bands"), "http://www.youtube.com/watch?v=XVwxB1FdJSw" %> 
+    </div>
   </div>
 </div>
 </div>
 <div id="panel7" class="panel">
 <div class="container-fluid">
-  <div class="row-fluid voffset">
+  <div class="row-fluid">
     <div class="span6 offset3">
-      <h1>I call Boston home, but I frequent NY</h1><br>
-      <h1>I love meeting new people, so let's connect!</h1>
+        <h1>Boston | NY</h1><br/>
+        <h1>Let's connect!</h1>
     </div>
   </div>
   <div class="row-fluid voffset">
-    <div class="span1 offset4"><%= link_to image_tag("email.png", alt:"EMail"), "mailto:jdhaimson@gmail.com" %></div>
-    <div class="span1"><%= link_to image_tag("linkedin.png", alt:"Linked In"), "http://www.linkedin.com/in/jhaimson" %></div>
-    <div class="span1"><%= link_to image_tag("twitter.png", alt:"Twitter"), "https://twitter.com/Just_Joshing" %></div>
-    <div class="span1"><%= link_to image_tag("github.jpg", alt:"GitHub"), "https://github.com/Jdhaimson" %></div>
+    <div class="span2 offset4"><%= link_to image_tag("email.png", alt:"EMail"), "mailto:jdhaimson@gmail.com" %></div>
+    <div class="span2"><%= link_to image_tag("linkedin.png", alt:"Linked In"), "http://www.linkedin.com/in/jhaimson" %></div>
+  </div>
+  <div class="row-fluid voffset">
+    <div class="span2 offset4"><%= link_to image_tag("twitter.png", alt:"Twitter"), "https://twitter.com/Just_Joshing" %></div>
+    <div class="span2"><%= link_to image_tag("github.jpg", alt:"GitHub"), "https://github.com/Jdhaimson" %></div>
   </div>
 </div>
 </div>
