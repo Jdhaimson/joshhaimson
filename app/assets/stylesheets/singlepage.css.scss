@@ -74,10 +74,24 @@ img, object {
 
 }
 
+
 .vcenter {
   position: relative;
   min-height: 50%;
   top: 25%;
+}
+
+.voffset2 {
+  padding-top: 10%;
+}
+
+#index {
+  height: 100%;
+}
+
+#index .logo {
+  width: 50%;
+  height: 50%;
 }
 
 #panel1 h1, #panel1 h3 {
