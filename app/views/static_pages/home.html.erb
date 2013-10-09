@@ -2,23 +2,25 @@
 <div id="panel1" class="panel">
 <div class="row-fluid voffset2">
   <div class="row-fluid">
-    <div class="span4 offset4">
+    <div class="span4 offset4" id="Hello">
       <h3><em>hi, i'm</em></h3>
-      <h1>Josh Haimson</h1>
+      <h1>josh haimson</h1>
     </div>
   </div>
 
   <div class="row-fluid voffset">
-    <div class="span2 offset4"><%= link_to image_tag("email.png", class: "logo", alt:"EMail"), "mailto:jdhaimson@gmail.com" %></div>
-    <div class="span2"><%= link_to image_tag("linkedin.png", class: "logo", alt:"Linked In"), "http://www.linkedin.com/in/jhaimson" %></div>
+    <div class="span2 offset4" id="email"><%= link_to image_tag("email.png", class: "logo", alt:"Email"), "mailto:jdhaimson@gmail.com" %></div>
+    <div class="span2" id="linkedin"><%= link_to image_tag("linkedin.png", class: "logo", alt:"Linked In"), "http://www.linkedin.com/in/jhaimson" %></div>
   </div>
 
   <div class="row-fluid voffset">
-    <div class="span2 offset4"><%= link_to image_tag("twitter.png", class: "logo", alt:"Twitter"), "https://twitter.com/Just_Joshing" %></div>
-    <div class="span2"><%= link_to image_tag("github-clear.png", class: "logo", alt:"GitHub"), "https://github.com/Jdhaimson" %></div>
+    <div class="span2 offset4" id="twitter"><%= link_to image_tag("twitter.png", class: "logo", alt:"Twitter"), "https://twitter.com/Just_Joshing" %></div>
+    <div class="span2" id="github"><%= link_to image_tag("github-clear.png", class: "logo", alt:"GitHub"), "https://github.com/Jdhaimson" %></div>
   </div>
 
 
 </div>
 </div>
 </div>
+
+<%= javascript_tag "zoomStart();" %>
