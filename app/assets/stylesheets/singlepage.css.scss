@@ -86,7 +86,21 @@ img, object {
 }
 
 #index {
+  padding: 0;
+  margin: 0;
+  left: 0;
+  top: 0;
+  overflow: scroll;
   height: 100%;
+  width: 100%;
+  position: fixed;
+  background: url('1stpanel.jpg')
+    no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: #fff;
 }
 
 #index .logo {
