@@ -101,11 +101,12 @@ img, object {
   -o-background-size: cover;
   background-size: cover;
   color: #fff;
+  overflow-x: hidden;
 }
 
 #index .logo {
-  width: 50%;
-  height: 50%;
+  width: 125px;
+  height: 125px;
 }
 
 #panel1 h1, #panel1 h3 {
