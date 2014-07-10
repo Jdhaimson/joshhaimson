@@ -8,4 +8,7 @@ class StaticPagesController < ApplicationController
   def bunko
   end
 
+  def winecheese
+  end
+
 end
