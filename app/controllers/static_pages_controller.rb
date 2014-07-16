@@ -11,4 +11,7 @@ class StaticPagesController < ApplicationController
   def winecheese
   end
 
+  def yogapantsandfinance
+  end
+
 end
