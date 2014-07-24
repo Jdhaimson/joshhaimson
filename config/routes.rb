@@ -2,8 +2,9 @@ Joshhaimson::Application.routes.draw do
   get "static_pages/home"
 
   root to: "static_pages#home"
-  match '/wineandcheese' => "static_pages#winecheese"
-  match '/yogapantsandfinance' => "static_pages#yogapantsandfinance"
+  #match '/wineandcheese' => "static_pages#winecheese"
+  #match '/yogapantsandfinance' => "static_pages#yogapantsandfinance"
+  match '/puzzlesthebar' => "static_pages#puzzlesthebar"
   #match '/mom' => "static_pages#mom"
   #match '/bunko' => "static_pages#bunko"
   #match '/showoff' => "static_pages#showoff"

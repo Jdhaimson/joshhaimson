@@ -14,4 +14,7 @@ class StaticPagesController < ApplicationController
   def yogapantsandfinance
   end
 
+  def puzzlesthebar
+  end
+
 end
