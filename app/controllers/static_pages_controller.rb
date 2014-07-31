@@ -17,4 +17,7 @@ class StaticPagesController < ApplicationController
   def puzzlesthebar
   end
 
+  def aroundtheworld
+  end
+
 end
