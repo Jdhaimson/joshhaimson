@@ -20,4 +20,7 @@ class StaticPagesController < ApplicationController
   def aroundtheworld
   end
 
+  def formal
+  end
+
 end

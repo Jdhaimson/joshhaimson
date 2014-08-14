@@ -1,0 +1,50 @@
+#formal {
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+    background: url('demboyz.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-top: 10%;
+}
+
+#formal #description {
+    min-height: 600px;
+    width: 70%;
+    background: rgba(200,200,200,.9);
+    margin: 0 auto 0 auto;
+    border: 2px solid rgba(100,100,100,.8);
+    border-radius: 25px;
+    padding: 10px;
+    text-align: center;
+}
+
+#formal h1 {
+    font-family: 'Rouge Script', cursive;
+    text-transform: none;
+    font-size: 70px;
+}
+
+#formal h2 {
+    font-family: 'Rouge Script', cursive;
+    text-transform: none;
+    font-size: 40px;
+}
+
+#formal h3 {
+    font-family: 'Rouge Script', cursive;
+    text-transform: none;
+    line-height: 18px;
+    font-size: 30px;
+}
+
+#formal p {
+    font-family: 'Rouge Script', cursive;
+    font-size:15px;
+}
+
+#formal #mojito {
+    color: green;
+}
